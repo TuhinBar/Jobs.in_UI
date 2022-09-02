@@ -18,10 +18,18 @@ body{
 }
 .banner{
     position: relative;
-    height: 80vh;
+    height: 77vh;
     width: 100%;
     background: url(../images/Group\ 8657.png) no-repeat;
+    
 }
+
+@media screen and (max-width:1140px){
+    .banner{
+        background-image: url(../images/Ellipse\ 155.png);
+}
+}
+
 .nav-link:focus {
     color: orange !important;
 }
@@ -38,9 +46,10 @@ body{
     font-family: var(--font-2)
 }
 #head_text{
-    font-size: small;
+    font-size: medium;
     font-weight: thin;
-    font-family: var(--font-1)
+    font-family: var(--font-1);
+   
 }
 
 .cta__1{
@@ -104,4 +113,77 @@ a#link_jobs{
     font-size: smaller;
     font-weight: lighter;
     font-family: var(--font-1);
+}
+
+.job{
+    height: 120px;
+    width: 190px;
+    background-color: rgb(255, 255, 255);
+    margin: 30px;
+    border-radius: 8%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+
+}
+.job_row1{
+    display: flex;
+    flex-direction: row;
+}
+.job_title{
+    color: #252525;
+
+}
+.circle{
+    color: rgb(252, 97, 0);
+    position: relative;
+    top: 10%;
+    left: 10%;
+    background-color: rgba(252, 97, 0, 0.384);
+    opacity: 1;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.job_description{
+    color: #252525;
+    margin: 1rem 0 0 2rem;
+    font-family: var(--font-1);
+    font-size: smaller;
+}
+.bx-chevron-right{
+    color: #252525;
+    margin: 1rem 0 0 0;
+}
+.last_job{
+    background-color: rgb(252, 97, 0);
+    text-align: left;
+    font-size: x-large;
+    font-weight: bolder;
+    line-height: 1.4;
+
+}
+#last_job{
+    color: white;
+}
+.last_arrow{
+    color: white;
+    margin: 2.5rem 0 0 1rem;
+}
+
+.advertisement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    font-size: larger;
+    height: 20vh;
+    width: 75%;
+    margin: 5.8rem 0;
 }
