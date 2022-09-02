@@ -29,7 +29,10 @@ body{
         background-image: url(../images/Ellipse\ 155.png);
 }
 }
-
+.nav-link{
+    font-family: var(--font-1);
+    color: white;
+}
 .nav-link:focus {
     color: orange !important;
 }
@@ -186,4 +189,56 @@ a#link_jobs{
     height: 20vh;
     width: 75%;
     margin: 5.8rem 0;
+}
+
+/* === ABOUT US === */
+
+/* .about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--font-2);
+    font-size: larger;
+} */
+#us{
+    color: rgb(252, 97, 0);
+    margin: 4px;
+}
+.about_text{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+}
+.about_title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    font-family: var(--font-2);
+    font-size: larger;
+}
+.about_head{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-size: x-large;
+    color: rgb(252, 97, 0);
+    font-weight: 100;
+    font-family: var(--font-2);
+}
+.about_body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    font-family: var(--font-1);
+    font-size: large;
+    font-weight: medium;
 }
