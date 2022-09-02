@@ -1,16 +1,125 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="Assets/styles/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="Assets/styles/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
     <title>Jobs.in</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <section class="main">
+      <div class="container">
+        <section class="banner_main">
+        <div class="banner">
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand ms-5" href="#">Jobs.in</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto me-5">
+                  <a class="nav-link active mx-3" aria-current="page" href="#"
+                    >Home</a
+                  >
+                  <a class="nav-link mx-3" href="#">About Us</a>
+                  <a class="nav-link mx-3" href="#">Contact Us</a>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      For Emoployer
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <button class="btn btn-warning nav-link mx-3">
+                    Register
+                  </button>
+                  <button class="btn btn-success nav-link mx-3 me-4">
+                    Log in
+                  </button>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <div class="head-content ms-5">
+            <p>
+              Find Your Next Job<br />
+              And Make Your <br />Own Goal
+            </p>
+            <small id="head_text"
+              >We are the best global job finding agency and <br />
+              millions of people liked trusted our platform</small
+            >
+          </div>
+          <div class="cta__1 ms-5 my-5">
+            <div class="cta__1-title">
+              <p>Job title</p>
+              <input type="text" placeholder="Type Here" id="title" />
+            </div>
+            <hr size="1" id="hr-1" />
+            <div class="cta__1-title-2">
+              <p>Location</p>
+              <input type="text" placeholder="Type Here" id="typehere" />
+            </div>
+            <button class="btn btn-dark btn-sm" id="cta_1_btn">
+              Get Started
+            </button>
+          </div>
+        </div>
+      </section>
+        <section class="features">
+          <div class="feature_title">
+            <h4>Browse <a href="/jobs" id="link_jobs">Jobs</a> By Catagory</h4>
+            <small id="feature_small">
+              We Provide Some Imformation On Trending Job Vacancies
+            </small>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
   </body>
   <script src="Assets/js/main.js"></script>
-  <script type="text/javascript" src="vanilla-tilt.js"></script>
+  <script type="text/javascript" src="Assets/js/vanilla-tilt.js"></script>
+  <script type="text/javascript">
+    VanillaTilt.init(document.querySelectorAll(".cta__1"), {
+    max: 25,
+    speed: 400,
+});
+  </script>
 </html>
