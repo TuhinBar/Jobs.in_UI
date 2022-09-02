@@ -242,3 +242,40 @@ a#link_jobs{
     font-size: large;
     font-weight: medium;
 }
+.highlights{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-2);
+    font-size: medium;
+}
+.first_highlight{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    font-family: var(--font-1);
+    font-size: smaller;
+    font-weight: medium;
+    margin-top: 20px;
+}
+.high_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}
+h6#high_head{
+    font-family: var(--font-2);
+}
+
+/* .about_body_image{
+    display: flex;
+    background-color: aliceblue;
+    height: 10vh;
+    width: 50vh;
+    display: flex;;
+    align-items: center;
+    justify-content: center;
+} */
