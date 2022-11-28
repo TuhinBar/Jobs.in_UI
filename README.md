@@ -1,6 +1,6 @@
 # Jobs.in_UI
 
-It is a sample landind page using boostrap and css. Feel free to contribute. (WIP)
+It is a sample landing page using boostrap and css. Feel free to contribute. (WIP)
 
 - Preview
 
